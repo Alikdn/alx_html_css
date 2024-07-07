@@ -1,0 +1,162 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    position: relative;
+    height: 100px;
+    background-color: transparent; 
+}
+
+.logo {
+    position: absolute;
+    top: 1mm;
+    left: 2px;
+    height: 40px; 
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.test {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.test li {
+    display: inline;
+}
+
+.test a {
+    text-decoration: none;
+    color: #fff; /* Adjust color as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional */
+    transition: background-color 0.3s ease;
+}
+
+.test a:hover {
+    background-color: #ddd; /* Adjust hover color as needed */
+    color: #000; /* Adjust hover text color as needed */
+}
+
+.back {
+    background: url('headphones_hero_1.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero button {
+    background: #FF6565;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    opacity: 0.9;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#our-results{
+
+    height: 100vh;
+    background: url('headphones_hero_2.jpg') no-repeat center center/cover;
+    background-size: cover;
+    color: #fff;
+
+}
+
+#what-we-do .features, #our-results .results {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature, .result {
+    flex: 1;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #FF6565;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+  
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    header nav {
+        display: none;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    #what-we-do .features, #our-results .results {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+    }
+}

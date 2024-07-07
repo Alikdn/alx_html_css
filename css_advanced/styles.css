@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    background: url(Object.png) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .logo {
+    height: 50px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-content {
+    margin-top: 150px; /* Adjust as needed */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.register-btn {
+    background: #a349a4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.learn {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.learn .pro-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.learn .pro-card {
+    margin: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    background: #d4a3d4;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.tutorials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tutorials .tutorial-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tutorials .tutorial-card {
+    margin: 20px;
+    text-align: center;
+}
+
+.membership {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.membership .membership-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.membership .membership-card {
+    margin: 20px;
+    text-align: center;
+}
+
+.faq {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.faq .faq-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.faq .faq-card {
+    margin: 20px;
+    text-align: left;
+    width: 200px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .logo {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
